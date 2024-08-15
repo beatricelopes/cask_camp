@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1341ab7893b74210b09033018bba1081" extends="task" label="Ouvidoria" max_length="40" name="x_1087398_a_a_no_0_u_ouvidoria" type="collection">
+        <element choice="1" label="Tipo de Problema" mandatory="true" max_length="35" name="problem_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Atendimento" sequence="0" value="Atendimento"/>
+                <element inactive_on_update="false" label="Entrega" sequence="1" value="Entrega"/>
+                <element inactive_on_update="false" label="Qualidade" sequence="2" value="Qualidade"/>
+                <element inactive_on_update="false" label="Outros" sequence="3" value="Outros"/>
+            </choice>
+        </element>
+    </element>
+</database>

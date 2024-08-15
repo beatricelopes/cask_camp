@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>cep</name>
+        <rest_message_function display_value="Default GET">30ccb78f93f30210b09033018bba1029</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 16:30:55</sys_created_on>
+        <sys_id>141d7f8f93f30210b09033018bba1016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cep</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_141d7f8f93f30210b09033018bba1016</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 16:30:55</sys_updated_on>
+        <type>string</type>
+        <value>12224410</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</application>
+        <file_path/>
+        <instance_id>5eef07111b4e3dd852a243f4bd4bcb74</instance_id>
+        <instance_name>dev193217</instance_name>
+        <name>sys_rest_message_fn_parameters_141d7f8f93f30210b09033018bba1016</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>cep</name><rest_message_function display_value="Default GET">30ccb78f93f30210b09033018bba1029</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-08 16:30:55</sys_created_on><sys_id>141d7f8f93f30210b09033018bba1016</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cep</sys_name><sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope><sys_update_name>sys_rest_message_fn_parameters_141d7f8f93f30210b09033018bba1016</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-08 16:30:55</sys_updated_on><type>string</type><value>12224410</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>-2049381208</payload_hash>
+        <record_name>cep</record_name>
+        <reverted_from/>
+        <source>6bc0ef3893b74210b09033018bba106e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 16:30:55</sys_created_on>
+        <sys_id>d52d3b8f93f30210b09033018bba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19132d43d090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 16:30:55</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>d92d3b8fb0f302101dea5b8c3a6ba7b2</update_guid>
+        <update_guid_history>d92d3b8fb0f302101dea5b8c3a6ba7b2:-2049381208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 16:43:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>44fb8ce1d1f84d589c6cc7167e5bb040</sys_id>
+        <sys_metadata>141d7f8f93f30210b09033018bba1016</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cep</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_scope_delete display_value="">142843b35f91453d823a67acd85cf9f9</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_141d7f8f93f30210b09033018bba1016</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_141d7f8f93f30210b09033018bba1016">d52d3b8f93f30210b09033018bba10b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 16:43:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

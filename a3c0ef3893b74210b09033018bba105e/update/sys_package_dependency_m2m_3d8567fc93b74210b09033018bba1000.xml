@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">49f001f38d020210d0ad51af4186635c</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 15:01:24</sys_created_on>
+        <sys_id>3d8567fc93b74210b09033018bba1000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:01:24</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

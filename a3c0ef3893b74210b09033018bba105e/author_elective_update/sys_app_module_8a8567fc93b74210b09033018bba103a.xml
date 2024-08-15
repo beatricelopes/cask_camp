@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>A A No 0 1722524482530</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1087398_a_a_no_0_1722524482530</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 15:01:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a8567fc93b74210b09033018bba103a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>A A No 0 1722524482530</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_update_name>sys_app_module_8a8567fc93b74210b09033018bba103a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:01:24</sys_updated_on>
+        <timeline_page/>
+        <title>A A No 0 1722524482530</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</application>
+        <file_path/>
+        <instance_id>5eef07111b4e3dd852a243f4bd4bcb74</instance_id>
+        <instance_name>dev193217</instance_name>
+        <name>sys_app_module_8a8567fc93b74210b09033018bba103a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>A A No 0 1722524482530</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1087398_a_a_no_0_1722524482530</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 15:01:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8a8567fc93b74210b09033018bba103a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>A A No 0 1722524482530</sys_name><sys_overrides/><sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope><sys_update_name>sys_app_module_8a8567fc93b74210b09033018bba103a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 15:01:24</sys_updated_on><timeline_page/><title>A A No 0 1722524482530</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1761265287</payload_hash>
+        <record_name>A A No 0 1722524482530</record_name>
+        <reverted_from/>
+        <source>6bc0ef3893b74210b09033018bba106e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 15:01:24</sys_created_on>
+        <sys_id>428567fc93b74210b09033018bba103e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910e75c5640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:01:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>068567fc0db742102ac9ab7bf4bac63d</update_guid>
+        <update_guid_history>068567fc0db742102ac9ab7bf4bac63d:-1761265287</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="A A No 0 1722524482530">8466a73093f74210b09033018bba10b6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 15:05:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1c8f667a7e7f4b6989fce077ba748d39</sys_id>
+        <sys_metadata>8a8567fc93b74210b09033018bba103a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>A A No 0 1722524482530</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_scope_delete display_value="">142843b35f91453d823a67acd85cf9f9</sys_scope_delete>
+        <sys_update_name>sys_app_module_8a8567fc93b74210b09033018bba103a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8a8567fc93b74210b09033018bba103a">428567fc93b74210b09033018bba103e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:05:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

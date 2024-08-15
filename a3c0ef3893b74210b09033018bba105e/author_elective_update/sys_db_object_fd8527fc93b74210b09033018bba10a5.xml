@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>A A No 0 1722524482530</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1087398_a_a_no_0_1722524482530</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">02f081f38d020210d0ad51af4186639a</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 15:01:24</sys_created_on>
+        <sys_id>fd8527fc93b74210b09033018bba10a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>A A No 0 1722524482530</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_update_name>sys_db_object_fd8527fc93b74210b09033018bba10a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:01:24</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</application>
+        <file_path/>
+        <instance_id>5eef07111b4e3dd852a243f4bd4bcb74</instance_id>
+        <instance_name>dev193217</instance_name>
+        <name>sys_db_object_fd8527fc93b74210b09033018bba10a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>A A No 0 1722524482530</label><live_feed_enabled>false</live_feed_enabled><name>x_1087398_a_a_no_0_1722524482530</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">02f081f38d020210d0ad51af4186639a</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 15:01:24</sys_created_on><sys_id>fd8527fc93b74210b09033018bba10a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>A A No 0 1722524482530</sys_name><sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope><sys_update_name>sys_db_object_fd8527fc93b74210b09033018bba10a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 15:01:24</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1687743341</payload_hash>
+        <record_name>A A No 0 1722524482530</record_name>
+        <reverted_from/>
+        <source>6bc0ef3893b74210b09033018bba106e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 15:01:24</sys_created_on>
+        <sys_id>7d8567fc93b74210b09033018bba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910e75c3830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:01:24</sys_updated_on>
+        <type>Table</type>
+        <update_guid>b18567fcedb74210ae92330ccea7fa0d</update_guid>
+        <update_guid_history>b18567fcedb74210ae92330ccea7fa0d:1687743341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 15:05:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>7f0bacb66524400196b4854cbcc50551</sys_id>
+        <sys_metadata>fd8527fc93b74210b09033018bba10a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>A A No 0 1722524482530</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_scope_delete display_value="">142843b35f91453d823a67acd85cf9f9</sys_scope_delete>
+        <sys_update_name>sys_db_object_fd8527fc93b74210b09033018bba10a5</sys_update_name>
+        <sys_update_version display_value="sys_db_object_fd8527fc93b74210b09033018bba10a5">7d8567fc93b74210b09033018bba100d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 15:05:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
