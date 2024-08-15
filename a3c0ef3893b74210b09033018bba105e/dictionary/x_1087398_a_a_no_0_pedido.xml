@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="71c82bf093f74210b09033018bba101f" extends="task" label="Pedido" max_length="40" name="x_1087398_a_a_no_0_pedido" type="collection">
+        <element label="Data de Entrega" max_length="40" name="data_de_entrega" type="glide_date"/>
+        <element label="Marca" max_length="32" name="marca" reference="x_1087398_a_a_no_0_u_produto" type="reference"/>
+        <element label="Nome do Cliente" max_length="40" name="nome_do_cliente" type="string"/>
+        <element label="Produto" max_length="32" name="produto" reference="x_1087398_a_a_no_0_u_produto" type="reference"/>
+        <element label="Telefone" max_length="40" name="telefone" type="phone_number_e164"/>
+    </element>
+</database>

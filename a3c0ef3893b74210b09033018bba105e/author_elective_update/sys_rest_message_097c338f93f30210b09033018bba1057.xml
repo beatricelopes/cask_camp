@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>Integração Via CEP</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://viacep.com.br/ws/${cep}/json/</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 16:29:15</sys_created_on>
+        <sys_id>097c338f93f30210b09033018bba1057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integração Via CEP</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_update_name>sys_rest_message_097c338f93f30210b09033018bba1057</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 16:29:15</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</application>
+        <file_path/>
+        <instance_id>5eef07111b4e3dd852a243f4bd4bcb74</instance_id>
+        <instance_name>dev193217</instance_name>
+        <name>sys_rest_message_097c338f93f30210b09033018bba1057</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>Integração Via CEP</name><oauth2_profile/><protocol_name/><rest_endpoint>https://viacep.com.br/ws/${cep}/json/</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-08 16:29:15</sys_created_on><sys_id>097c338f93f30210b09033018bba1057</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Integração Via CEP</sys_name><sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope><sys_update_name>sys_rest_message_097c338f93f30210b09033018bba1057</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-08 16:29:15</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>-1282665868</payload_hash>
+        <record_name>Integração Via CEP</record_name>
+        <reverted_from/>
+        <source>6bc0ef3893b74210b09033018bba106e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 16:29:15</sys_created_on>
+        <sys_id>fcccb78f93f30210b09033018bba102d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19132d2b5bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 16:29:15</sys_updated_on>
+        <type>REST Message</type>
+        <update_guid>f0ccb78fa7f302108de6914e5e011e2d</update_guid>
+        <update_guid_history>f0ccb78fa7f302108de6914e5e011e2d:-1282665868</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 16:43:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>bc546f57692f4ad9a32e68e7bb1d5549</sys_id>
+        <sys_metadata>097c338f93f30210b09033018bba1057</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integração Via CEP</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_scope_delete display_value="">142843b35f91453d823a67acd85cf9f9</sys_scope_delete>
+        <sys_update_name>sys_rest_message_097c338f93f30210b09033018bba1057</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_097c338f93f30210b09033018bba1057">fcccb78f93f30210b09033018bba102d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 16:43:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

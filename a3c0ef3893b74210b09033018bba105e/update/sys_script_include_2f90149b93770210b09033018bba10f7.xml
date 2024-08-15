@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1087398_a_a_no_0.cepIntegrationAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>cepIntegrationAjax</name>
+        <script><![CDATA[var cepIntegrationAjax = Class.create();
+cepIntegrationAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	realizarRequisicao: function(){
+
+		var baseURL = 'https://viacep.com.br/ws';
+		var cep = this.getParameter('sysparm_cep');
+
+		var request = new sn_ws.RESTMessageV2;
+		request.setHttpMethod('get');
+
+		request.setEndpoint(baseURL+cep+'/json');
+
+		var response = request.execute();
+		var httpResponseStatus = response.getStatusCode();
+		var body = JSON.parse(response.getBody());
+
+		return {
+			httpResponseStatus: httpResponseStatus,
+			body: body
+		};
+	},
+
+	//função buscar rua
+	buscarRua: function(){
+		var resposta = this.realizarRequisicao();
+		if (resposta.httpResponseStatus == 200){
+			return resposta.body.logradouro;
+		}
+	},
+
+	//função buscar bairro
+	buscarBairro: function(){
+		var resposta = this.realizarRequisicao();
+			if (resposta.httpResponseStatus == 200){
+				return resposta.body.bairro;
+				}
+	},
+
+
+	//função buscar cidade
+	buscarCidade: function(){
+		var resposta = this.realizarRequisicao();
+			if (resposta.httpResponseStatus == 200){
+				return resposta.body.localidade;
+				}
+	},
+
+	
+	//função buscar estado
+	buscarEstado: function(){
+		var resposta = this.realizarRequisicao();
+			if (resposta.httpResponseStatus == 200){
+				return resposta.body.uf;
+				}
+	},
+
+    type: 'cepIntegrationAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 17:57:19</sys_created_on>
+        <sys_id>2f90149b93770210b09033018bba10f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cepIntegrationAjax</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1087398_a_a_no_0">a3c0ef3893b74210b09033018bba105e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Açaí Now Delivery">a3c0ef3893b74210b09033018bba105e</sys_scope>
+        <sys_update_name>sys_script_include_2f90149b93770210b09033018bba10f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 18:17:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

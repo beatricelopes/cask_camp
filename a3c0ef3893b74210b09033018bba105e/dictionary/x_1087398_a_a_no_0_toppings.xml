@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6d39a33493f74210b09033018bba1060" label="Toppings" max_length="40" name="x_1087398_a_a_no_0_toppings" type="collection">
+        <element label="Ativo" max_length="255" name="ativo" type="boolean"/>
+        <element choice="1" label="Categoria" mandatory="true" max_length="40" name="categoria" reference="sys_choice_set" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Frutas" sequence="0" value="Frutas"/>
+                <element inactive_on_update="false" label="Granolas e Cereais" sequence="1" value="Granolas e Cereais"/>
+                <element inactive_on_update="false" label="Doces e Coberturas" sequence="2" value="Doces e Coberturas"/>
+                <element inactive_on_update="false" label="Outros" sequence="3" value="Outros"/>
+            </choice>
+        </element>
+        <element label="Nome do Topping" mandatory="true" max_length="40" name="nome_do_topping" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

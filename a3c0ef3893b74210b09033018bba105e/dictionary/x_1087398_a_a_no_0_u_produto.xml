@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fe56673093f74210b09033018bba1069" label="Produto" max_length="40" name="x_1087398_a_a_no_0_u_produto" type="collection">
+        <element label="Ativo" max_length="40" name="ativo" type="boolean"/>
+        <element label="Imagem" max_length="255" name="imagem" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Marca" max_length="40" name="marca" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="De Marchi" sequence="0" value="De Marchi"/>
+                <element inactive_on_update="false" label="Frooty" sequence="0" value="Frooty"/>
+                <element inactive_on_update="false" label="Mil&amp;Ross" sequence="0" value="Mil&amp;Ross"/>
+                <element inactive_on_update="false" label="Polpanorte" sequence="0" value="Polpanorte"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Nome" max_length="40" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Website" max_length="1024" name="website" type="url"/>
+    </element>
+</database>
